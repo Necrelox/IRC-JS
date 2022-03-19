@@ -1,0 +1,94 @@
+.Client {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+}
+
+.Client-header {
+  color: white;
+}
+
+.displayMsg {
+  display: grid;
+  color: white;
+  margin-bottom: 55px;
+}
+
+.lineMsg {
+  list-style: none;
+  width: 98vw;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.MyMsg {
+  list-style: none;
+  width: 40%;
+  float: left;
+  margin-left: 15px;
+
+}
+
+.OtherMsg {
+  list-style: none;
+  width: 40%;
+  float: right;
+  margin-right: 10px;
+}
+
+.client-emit-form {
+  background-color: #222;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 99.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+
+
+.client-emit-form :nth-child(1) {
+  flex: 1;
+  border: 1px solid aquamarine;
+  -webkit-appearance: none;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: aquamarine;
+  box-shadow: 0 0 10px aquamarine;
+  margin-right: 10px;
+}
+
+.client-emit-form :nth-child(1):focus {
+  outline: none;
+}
+
+.client-emit-form :nth-child(2) {
+  flex: 0.5;
+  -webkit-appearance: none;
+  border: 1px solid aquamarine;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: aquamarine;
+  box-shadow: 0 0 10px aquamarine;
+}
+
+.client-emit-form :nth-child(2):hover {
+  background-color: cyan;
+  box-shadow: 0 0 10px cyan;
+}
+
