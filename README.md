@@ -1,2 +1,2 @@
 # IRC-JS
-à venir
+Readme à faire
